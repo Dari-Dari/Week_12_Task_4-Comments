@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="comments">
+        <div class="container">
+            <div class="comments__input">
+                <h1>Сервис комментариев со спам фильтром</h1>
+                <div><input type="text" id="name" class="comments__user-name field" placeholder="Ваше имя"></div>
+                <div><input type="text" id="link" class="comments__user-profile field"
+                        placeholder="Ссылка на фото профиля"></div>
+                <div><textarea id="comment" class="comments__user-comment field" cols="30" rows="10"
+                        placeholder="Напишите комментарий тут"></textarea></div>
+                <button id="btnSend" class="comments__button-send">Отправить</button>
+            </div>
+            <div class="comments__output">
+                <p>Чат</p>
+                <div class="comments__profile-output">
+                    <img src="" alt="photo" class="comments__img-output">
+                    <div>
+                        <p class="comments__name-output"></p>
+                        <p class="comments__comment-output"></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="comment.js"></script>
+</body>
+
+</html>
